@@ -11,7 +11,7 @@ function cargarEventListener(){
   // cuando agregas un curso agregando
   listaCursos.addEventListener('click',agregarCurso);
   // Elimina cursos del carrito
-  carrito.cargarEventListener('click',eliminarCurso)
+  carrito.addEventListener('click',eliminarCurso)
 }
 
 // funciones
